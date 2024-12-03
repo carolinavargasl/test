@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content=" script-src 'self' 'nonce-2726c7f26c' https://www.googletagmanager.com https://firebasestorage.googleapis.com;">
+    <title>Página de Prueba con GTM</title>
+    <script nonce="2726c7f26c"
+        src="https://firebasestorage.googleapis.com/v0/b/finandina-sitiopublico.appspot.com/o/test.js?alt=media&token=eea06b64-61ad-48b3-ad08-fcfe3d377403">
+    </script>
+
+    <script nonce="2726c7f26c" id="gtmScript" data-nonce="2726c7f26c">
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; var n = d.querySelector('[nonce]');
+            n && j.setAttribute('nonce', n.nonce || n.getAttribute('nonce')); f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PKW2D55T');
+        // })(window, document, 'script', 'dataLayer', 'GTM-N4GMR9');
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+<body>
+    <h1>Bienvenido a la página de prueba</h1>
+    <p>Esta es una página de prueba con GTM configurado.</p>
+</body>
+</html>
